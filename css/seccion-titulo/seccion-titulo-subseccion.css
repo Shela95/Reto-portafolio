@@ -1,0 +1,31 @@
+/* hago esto h3 class="title__subsection">Estudie Analista de Sistemas en ISSD Instituto Superior Santo Domingo  y actualmente estoy participando del proyecto <a class="titulo_oracle" target="_blank" href="https://www.oracle.com/ar/education/oracle-next-education/">Oracle ONE </a>en <a class="titulo_alura" target="_blank" href="https://www.aluracursos.com/?gclid=Cj0KCQjwtO-kBhDIARIsAL6LordGFjrOo1mJ2GQof4xSbueadJP1MEZvcC1eZ4mjYXKWF_cbvZHEPdIaApRkEALw_wcB">Alura Latam.</a></h3> */
+
+.title__subsection {
+    font-size: 40px;
+    margin-top: -12rem;; 
+    padding-left: 150px;
+    color:white;	
+    
+   
+  }
+
+  .title__subsection .titulo_oracle:hover{
+  color: rgb(57, 131, 131);
+  text-decoration-line: underline;
+  font-weight: 700;
+  }
+ 
+ .title__subsection .titulo_alura:hover{
+    color: rgb(99, 162, 162);
+    text-decoration-line: underline;
+    font-weight: 700;
+    } 
+  
+    @media screen and (max-width: 400px){
+      .title__subsection{
+        display: flex;
+        align-content: center;
+        font-size: 25px;
+        /* margin: 0%; */
+      }
+    }

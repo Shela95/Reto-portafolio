@@ -1,0 +1,15 @@
+/*Pra saber donde esta el contenedor*/
+
+.menu__header{
+    
+    color: aliceblue;
+    font-size: 22px;
+    width: 28vw;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+    
+
+}; 

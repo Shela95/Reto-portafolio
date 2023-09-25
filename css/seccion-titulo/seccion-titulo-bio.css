@@ -1,0 +1,29 @@
+/* hago esto <h2 class="title__bio">Bienvenidos, mi nombre es Graciela Collazos Osorio</h2> */
+
+.title__bio {
+   display: flex;
+   align-items: center;
+    font-size: 40px;
+    margin-top: 2rem;
+    padding-left: 150px;
+    color: white;	
+    
+  }
+
+  @media screen and (max-width: 768px) {
+
+    .title__bio {
+       align-items: center; 
+       font-size: 30px;
+       padding-left: 1rem;
+     }
+
+  }
+
+  @media screen and (max-width: 400px) {
+    .title__bio {
+       font-size: 25px;
+       margin-top: 0;
+
+     }
+  }

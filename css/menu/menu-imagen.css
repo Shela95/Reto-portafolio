@@ -1,0 +1,9 @@
+.menu__imagen{
+    border-image-source: -moz-radial-gradient(5);
+      height: 30px; 
+   padding: 20px 10 10 0;
+      margin-left: 1rem;
+      
+
+}
+

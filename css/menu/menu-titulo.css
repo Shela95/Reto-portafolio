@@ -1,0 +1,13 @@
+/* color del titulo  <h3 class="menu__title">Graciela Collazos Osorio</h3>  */
+
+.menu__title{
+    display: flex;
+    color:#a15858;	
+    font-size: 30px;
+    margin-left: 1.5rem; 
+    
+    /* justify-content: right;
+    padding-left: 2rem; */
+    
+
+}

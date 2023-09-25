@@ -1,0 +1,60 @@
+/*Sección About* el color de todo el container section class="about */
+
+section.about {
+    
+ background-image: url("O:/My Drive/Shela/Lenguajesdeprogramacion/Alura/ChallengeShela/challenge-one-portafolio--main/assets/fondoprincipal.jpg");  
+	
+
+  margin-top: 2rem;
+  display: flex;
+  align-items: letf;
+  justify-content: left;
+  
+}
+
+.about__container {
+ /* width: 80vw; */
+  margin-top: 30px;
+  	
+  
+}
+
+.about__title {
+  margin-top: -10rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.about__paragraph {
+  margin-top: 30px;
+  width: 50vw;
+  font-size: 1.2rem;
+}
+
+/*Tablet*/
+/* @media (min-width: 768px) { */
+@media screen and (max-width: 768px) {
+  /* about */
+  .about__container {
+    width: 90vw;
+  }
+
+  .about__paragraph {
+    width: 90vw;
+  }
+}
+
+/*Mobile*/
+@media screen and (max-width: 425px) {
+  /*Sección sobre mi*/
+
+  .about__title {
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .about__paragraph {
+    font-size: 0.8rem;
+  }
+}

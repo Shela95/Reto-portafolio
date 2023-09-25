@@ -1,0 +1,11 @@
+/*aqui va el color de fondo de la cabecera */
+
+.menu{
+  background-color: #FDEDEC;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  /* padding-left: 2rem;
+  padding-right: 1rem; */
+}
+

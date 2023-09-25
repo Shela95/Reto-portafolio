@@ -1,0 +1,25 @@
+.menu__list__item{
+    display: flex;
+    margin: 1rem; 
+    font-weight: 500;
+    color:black; 	 
+
+/*  background-image: url(https://www.tutorialesprogramacionya.com/cssya/css3ya/foto1.jpg); */
+ 
+    
+}
+
+.menu__list__item a:hover {
+  color: red;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+
+    @media screen and (max-width: 768px) {
+      
+        .menu__list__item {
+          display: none;
+        }
+      
+      }

@@ -1,0 +1,17 @@
+
+.title__div {
+    margin-top: 04rem;
+    color: blue;
+    display: flex;
+    flex-direction: row-reverse;
+    background-image: url("C:/LenguajesdeProgramacion/Alura/Challenge2/challenge-one-portafolio--main/assets/fondopagina.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+   /* justify-content: space-between; */
+    width: auto;
+    height: auto;
+  }
+
+  
+
+  
